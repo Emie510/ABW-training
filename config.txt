@@ -1,0 +1,17 @@
+[country-configs]
+place_name = "Lesotho"
+months_of_interest = [12, 1, 2]
+start_forecast = '09'
+
+[standard-configs]
+return_period_obs = 0.2
+return_period_fc = 0.2
+ensemblenr = 24
+start_year = 1995
+end_year = 2021
+target_resolution = 0.01
+variable = "pr"
+
+[paths]
+base_path_obs = r"C:\Users\ekleinholkenborg\Rode Kruis\510 - Anticipatory Action - Climate model skill assessment\Data\Drought\data-received-from-SMHI [fullset; remote; precip, temp]\historicalSim_pr\hgfd3_e5-gpcch_pr_filled_{}-{}.nc"
+base_path_fc = r"C:\Users\ekleinholkenborg\Rode Kruis\510 - Anticipatory Action - Climate model skill assessment\Data\Drought\data-received-from-SMHI [fullset; remote; precip, temp]\seasonalForecast_pr\pr_seasonal-fc_ECMWF-SYSTEM5_r{}_{}_{}.nc"
