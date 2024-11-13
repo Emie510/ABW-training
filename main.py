@@ -5,6 +5,7 @@ import numpy as np
 from shapely.geometry import mapping;
 import matplotlib.pyplot as plt;
 #test
+#test test test
 configParser = ConfigParser.RawConfigParser()
 configFilePath = r'C:\Users\ekleinholkenborg\ABW\config.txt'
 configParser.read(configFilePath)
